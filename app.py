@@ -183,20 +183,45 @@ st.subheader("4. Cross-Impact Map")
 if data.empty:
     st.info("Add at least one factor with numeric scores to see the chart.")
 else:
-    fig = px.scatter(
-        data,
-        x="Dependence",
-        y="Influence",
-        color="Quadrant",
-        text="Factor",
-        color_discrete_map={
-            "Active": "#1b9e77",
-            "Critical": "#d95f02",
-            "Passive": "#7570b3",
-            "Inactive": "#e6ab02",
-        },
-        height=650,
-    )
+    # ---------------------------------------------------------
+# Add quadrant labels to the Plotly figure
+# ---------------------------------------------------------
+fig.add_annotation(
+    x=x_centre - 5,
+    y=y_centre + 5,
+    text="Active<br><span style='font-size:12px'>(high influence, low dependence)</span>",
+    showarrow=False,
+    font=dict(size=14, color="green"),
+    align="left"
+)
+
+fig.add_annotation(
+    x=x_centre + 5,
+    y=y_centre + 5,
+    text="Critical<br><span style='font-size:12px'>(high influence, high dependence)</span>",
+    showarrow=False,
+    font=dict(size=14, color="red"),
+    align="left"
+)
+
+fig.add_annotation(
+    x=x_centre + 5,
+    y=y_centre - 5,
+    text="Passive<br><span style='font-size:12px'>(low influence, high dependence)</span>",
+    showarrow=False,
+    font=dict(size=14, color="orange"),
+    align="left"
+)
+
+fig.add_annotation(
+    x=x_centre - 5,
+    y=y_centre - 5,
+    text="Inactive<br><span style='font-size:12px'>(low influence, low dependence)</span>",
+    showarrow=False,
+    font=dict(size=14, color="blue"),
+    align="left"
+)
+
 
     # Add quadrant cross-hairs
     fig.add_vline(x=x_centre, line_width=1, line_color="black")
