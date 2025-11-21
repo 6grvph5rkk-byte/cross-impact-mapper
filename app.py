@@ -172,6 +172,31 @@ Quadrants are assigned using the centre values from the sidebar:
 - **Inactive** – low Influence, low Dependence  
 """
 )
+st.markdown(
+    """
+### Understanding Each Quadrant (For SMEs)
+
+**Active – factors that push the system but don’t wait for it**  
+These are the forces in your environment that **move on their own**, regardless of what your organisation does.  
+Think of things like AI innovation, cultural shifts, or new platforms — they evolve whether you touch them or not.  
+Treat these as the **industry weather**: they shape your context, even though you don’t control them.
+
+**Critical – factors that drive the system *and* are heavily shaped by it**  
+These are high-stakes, high-pressure factors where changes ripple out widely, **but they also depend on other forces**.  
+Examples include funding decisions, regulation, and major policy or economic shifts.  
+For your SME, these are the areas where strategic awareness matters most — they’re the levers *and* the pressure points.
+
+**Passive – factors that react strongly but don’t really push back**  
+These elements shift mainly because of what’s happening around them, and don’t meaningfully drive the wider system.  
+This could include audience affordability, freelancer availability, or venue viability.  
+They matter, but they’re **reactive**, so they’re not where you should anchor long-term strategy.
+
+**Inactive – factors that sit in the background and don’t move the system**  
+These are operational or contextual details that **don’t change much**, and even when they do, they don’t reshape the bigger picture.  
+Things like merchandise revenue, tourism spillover, or occasional event activity fall here.  
+Useful to track — but not where influence or risk will come from.
+"""
+)
 
 st.dataframe(data, use_container_width=True)
 
