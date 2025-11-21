@@ -15,7 +15,7 @@ st.title("Cross-Impact Mapping Tool – pi-studio / MA Designing Education")
 st.markdown(
     """
 This is a tool for organisations to explore **factors of influence** and use it in
-relationship to **future prospecting**, and in relationship to the  
+relationship to **future prospecting**, and in relationship to civic and organisation education from the  
 **MA in Designing Education at Goldsmiths, University of London**.
 
 Cross-impact analysis was originally developed by **Gordon & Helmer (1966)** in futures studies  
