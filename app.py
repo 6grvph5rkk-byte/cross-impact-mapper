@@ -15,12 +15,11 @@ st.title("Cross-Impact Mapping Tool – pi-studio / MA Designing Education")
 st.markdown(
     """
 This is a free tool for organisations to explore **factors of influence** and use it in
-relationship to **future prospecting**, for civic and organisation education from the  
-**MA in Designing Education at Goldsmiths, University of London https://www.gold.ac.uk/pg/ma-designing-education/**.
+relationship to **future prospecting**, for civic and organisation education from the **MA in Designing Education at Goldsmiths, University of London https://www.gold.ac.uk/pg/ma-designing-education/**.
 
-Cross-impact analysis was originally developed by **Gordon & Helmer (1966)** in futures studies  
-and is developed here as a way to explore **prospecting futures** in creative,
-educational and organisational contexts. The Pi Studio a Goldsmiths Research Studio is working with SMEs in the creative industries across the UK, so far over 200 organisations have been involved.  
+Cross-impact analysis was originally developed by **Gordon & Helmer (1966)** in futures studies and is developed here as a way to explore **prospecting futures** in creative,
+educational and organisational contexts. The Pi Studio is a Research Studio at Goldsmiths University of London and has been working with SMEs in the creative industries across the UK. 
+The count so far is over 200 organisations.  
 """
 )
 
