@@ -207,7 +207,7 @@ else:
     fig.add_annotation(
         x=x_centre - 5,
         y=y_centre + 5,
-        text="Active<br><span style='font-size:12px'>(high influence, low dependence)</span>",
+        text="Active Factors<br><span style='font-size:12px'>(high influence, low dependence)</span>",
         showarrow=False,
         font=dict(size=14, color="green"),
         align="left",
@@ -216,7 +216,7 @@ else:
     fig.add_annotation(
         x=x_centre + 5,
         y=y_centre + 5,
-        text="Critical<br><span style='font-size:12px'>(high influence, high dependence)</span>",
+        text="Critical Factors<br><span style='font-size:12px'>(high influence, high dependence)</span>",
         showarrow=False,
         font=dict(size=14, color="red"),
         align="left",
@@ -225,18 +225,18 @@ else:
     fig.add_annotation(
         x=x_centre + 5,
         y=y_centre - 5,
-        text="Passive<br><span style='font-size:12px'>(low influence, high dependence)</span>",
+        text="Passive Factors<br><span style='font-size:12px'>(low influence, high dependence)</span>",
         showarrow=False,
-        font=dict(size=14, color="orange"),
+        font=dict(size=14, color="blue"),
         align="left",
     )
 
     fig.add_annotation(
         x=x_centre - 5,
         y=y_centre - 5,
-        text="Inactive<br><span style='font-size:12px'>(low influence, low dependence)</span>",
+        text="Inactive factors<br><span style='font-size:12px'>(low influence, low dependence)</span>",
         showarrow=False,
-        font=dict(size=14, color="blue"),
+        font=dict(size=14, color="orange"),
         align="left",
     )
 
