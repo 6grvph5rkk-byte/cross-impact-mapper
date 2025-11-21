@@ -16,7 +16,7 @@ st.markdown(
     """
 This is a tool for organisations to explore **factors of influence** and use it in
 relationship to **future prospecting**, and in relationship to civic and organisation education from the  
-**MA in Designing Education at Goldsmiths, University of London**.
+**MA in Designing Education at Goldsmiths, University of London https://www.gold.ac.uk/pg/ma-designing-education/**.
 
 Cross-impact analysis was originally developed by **Gordon & Helmer (1966)** in futures studies  
 and is developed here as a way to explore **prospecting futures** in creative,
